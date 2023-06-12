@@ -1,0 +1,70 @@
+.conto>.info{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid rgba(0, 0, 0, 0.833);
+    background-color: #8adfc6;
+}
+
+.saldo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 2px solid rgba(252, 4, 4, 0.918);
+    background-color: #ffffff;
+    width: 6rem;
+}
+.conto>.input{
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem 3rem;
+}
+.debito{
+    background-color: #e50303fc;
+    border: 2px solid rgba(0, 0, 0, 0.833);
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+ 
+    cursor: pointer;
+}
+.ricarica{
+    background-color: #09b600fc;
+    border: 2px solid rgba(0, 0, 0, 0.833);
+    color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+ 
+    cursor: pointer;
+}
+h7{
+    color: #ffffff;
+}
+.maggiorenne{
+    display: flex;
+    justify-content: center;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgba(0, 0, 0, 0.833);
+    width: 12rem;
+    border-radius: 5px;
+    background-color: #fffffffc;
+}
+.download>div{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.download>div>button{
+    width: 8rem;
+    background-color: #0033fffc;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight : bold ;
+    
+}
+#title{
+    background-color: #50b5dafc;
+    color: #ffffff;
+}
